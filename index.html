@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pillbox Pharmacy - Your Advanced Online Pharmacy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Pillbox Pharmacy</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#contact.html">Contact</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for medicines...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <aside class="sidebar">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="painkillers.html"><i class="fas fa-pills"></i> Painkillers</a></li>
+                    <li><a href="antibiotics.html"><i class="fas fa-capsules"></i> Antibiotics</a></li>
+                    <li><a href="vitamins.html"><i class="fas fa-apple-alt"></i> Vitamins</a></li>
+                    <li><a href="firstaid.html"><i class="fas fa-first-aid"></i> First Aid</a></li>
+                    <li><a href="skincare.html"><i class="fas fa-spa"></i> Skincare</a></li>
+                    <li><a href="dentalcare.html"><i class="fas fa-tooth"></i> Dental Care</a></li>
+                </ul>
+            </aside>
+
+            <section class="content">
+                <div class="slider">
+                    <div class="slide active" style="background-image: url('/api/placeholder/800/300');">
+                        <h2>Featured: Pain Relief Gel</h2>
+                    </div>
+                    <div class="slide" style="background-image: url('/api/placeholder/800/300');">
+                        <h2>New: Multivitamin Complex</h2>
+                    </div>
+                    <div class="slide" style="background-image: url('/api/placeholder/800/300');">
+                        <h2>Sale: First Aid Kits</h2>
+                    </div>
+                </div>
+
+                <h2>Popular Categories</h2>
+                <div class="medicine-types">
+                    <div class="medicine-type">
+                        <img src="/api/placeholder/100/100" alt="Painkillers">
+                        <h3>Painkillers</h3>
+                        <p>Relief from various types of pain</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="medicine-type">
+                        <img src="/api/placeholder/100/100" alt="Antibiotics">
+                        <h3>Antibiotics</h3>
+                        <p>Fight bacterial infections</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="medicine-type">
+                        <img src="/api/placeholder/100/100" alt="Vitamins">
+                        <h3>Vitamins</h3>
+                        <p>Support your overall health</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="medicine-type">
+                        <img src="/api/placeholder/100/100" alt="First Aid">
+                        <h3>First Aid</h3>
+                        <p>Essential supplies for emergencies</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Pillbox Pharmacy | All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
